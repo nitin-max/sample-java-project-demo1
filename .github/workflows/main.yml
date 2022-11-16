@@ -35,5 +35,12 @@ jobs:
         run: chmod +x gradlew
       - name: build with gradle
         run: ./gradlew build
-        
+      - name: Docker Build & Push Action
+        uses: mr-smithers-excellent/docker-build-push@v5.8
+        with:
+          # Name of the Docker image
+          image: nitingupta28021986/sample-java-project-demo1
+          registry: docker.io
+          username: nitingupta28021986
+          password: ${{secrets.DOCKER_HUB_PASSWORD}}
         
