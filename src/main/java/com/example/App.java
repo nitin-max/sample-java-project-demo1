@@ -20,7 +20,7 @@ public class App {
         Logger log = LoggerFactory.getLogger(App.class);
         log.info("Java app started");
 	log.info("nitingupta");
-	log.info("nitingupta2802");
+	log.info("java app stopped");
 
     }
 
