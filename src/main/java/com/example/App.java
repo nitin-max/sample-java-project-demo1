@@ -22,6 +22,8 @@ public class App {
 	log.info("nitingupta");
 	log.info("java app stopped");
 	log.info("java apps stopped");
+	log.info("java apps stoppped");
+
 
 
     }
